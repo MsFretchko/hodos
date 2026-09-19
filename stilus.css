@@ -9,9 +9,10 @@ body {
     border: 2px solid black;
     padding: 20px;
     border-radius: 1%;
+    color: rgb(63, 63, 80);
 }
 
-a {
+.link {
     background-color: rgb(43, 61, 43);
     color: white;
     text-decoration: none;
@@ -64,3 +65,100 @@ p {
     text-align: justify;
 }
 
+.ketszoveg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 10px;
+}
+
+#jellemzo {
+    background-color: rgb(130, 75, 141);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-left: 5px solid white;
+    border-style: none none dashed solid;
+    margin: 10px;
+}
+
+ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    margin: 20px;
+}
+
+.kisszoveg {
+    background-color: rgb(247, 231, 213);
+    border: 2px solid black;
+    border-radius: 1%;
+    margin: 10px;
+}
+
+.kekszoveg {
+    background-color: rgb(208, 222, 241);
+}
+
+#fajta {
+    background-color: rgb(90, 141, 75);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-left: 5px solid white;
+    border-style: none none dashed solid;
+    margin: 10px;
+
+}
+
+#fajtaszov {
+    margin: 15px;
+}
+
+ol {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    border: 2px solid black;
+    border-radius: 1%;
+    padding: 20px;
+}
+
+h3 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px;
+    border-style: none none dotted none;
+    font-size: 22px;
+    text-align: left;
+    margin: 15px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#hodlink {
+    color: rgb(168, 62, 20);
+    text-decoration: dotted;
+    margin-bottom: 20px;
+}
+
+#wiki {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .linkek{
+        grid-template-columns: 1fr;
+    }
+    .ketszoveg {
+        grid-template-columns: 1fr;
+    }
+    .foszoveg {
+        grid-template-columns: 1fr;
+    }  
+}
