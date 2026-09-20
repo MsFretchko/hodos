@@ -151,6 +151,20 @@ h3 {
     margin-top: 10px;
 }
 
+.kiscim {
+    color: rgb(54, 87, 54);
+    border-style: none none dashed solid;
+    border-left: 5px solid rgb(54, 87, 54);
+    padding: 10px;
+    margin: 15px;
+}
+
+.piciszoveg {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
 @media screen and (max-width:700px) {
     .linkek{
         grid-template-columns: 1fr;
